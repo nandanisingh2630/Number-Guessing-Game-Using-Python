@@ -3,7 +3,7 @@ from tkinter import messagebox
 import random
 
 class NumberGuessingGame:
-    def _init_(self, root):
+    def __init__(self, root):
         self.root = root
         self.root.title("🎯 Number Guessing Game")
         self.root.geometry("400x400")
